@@ -66,7 +66,7 @@ describe('calculator', function () {
     calculator.operatorClick('+')
     calculator.numberClick(8);
     calculator.operatorClick('+');
-    calculator.numberClick(8);  calculator.operatorClick('=');
+    calculator.numberClick(8);
     calculator.operatorClick('=');
     calculator.clearClick();
     assert.equal(16, calculator.previousTotal);
